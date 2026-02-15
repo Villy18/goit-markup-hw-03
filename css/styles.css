@@ -27,10 +27,11 @@ a {
 
 .header > .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding-top: 24px;
     padding-bottom: 24px;
+    padding: 0 15px;
 }
 
 .nav-list {
@@ -70,7 +71,6 @@ a {
 
 .header-contacts {
     display: flex;
-    gap: 24px;
 }
 
 .contacts-list {
@@ -113,12 +113,14 @@ button {
     background-color: #4D5AE5;
     color: #FFFFFF;
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
 }
 
-.hero-button {
-    padding: 10px 24px;
+.hero-button {   
+    border-radius: 4px;
+    padding: 16px 32px;
     font-size: 16px;
     color: #ffffff;
     background-color: #4d5ae5;
@@ -150,6 +152,7 @@ section {
     }
 
 .features-list {
+    justify-content: center;
     display: flex;
     gap: 24px;
     margin-left: 156px;
@@ -166,12 +169,19 @@ section {
     margin-bottom: 8px;
 }
 .features-text {
+    width: 264px;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
+section.team {
+    padding: 120px 156px;
+}
+
 .team-title {
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -188,13 +198,17 @@ section {
 
 .team-item {
     background-color: #ffffff;
+    border-radius: 0 0 4px 4px;
+    padding: 0 0 32px;
 
 }
 
 .team-list {
     display: flex;
-    
+    justify-content: center;
+    gap: 24px;
 }
+
 .team-name {
     font-size: 20px;
     line-height: 1.2;
@@ -213,29 +227,42 @@ section {
     text-align: center
 }
 
+.portfolio > .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 .portfolio-list {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 24px;
     
 }
 
 .portfolio-title {
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;
     margin-bottom: 72px;
-}
+    }
 
 .portfolio {
-    padding: 60px 0;
+    padding: 120px 0;
 }
 
 .portfolio-item {
-    border: 1px solid #e7e9fc;;
-    
+    border: 1px solid #e7e9fc;
+}
+
+.portfolio-info {
+    border: 1px solid var(--cornflower);
+    border-top: none;
+    padding: 32px 16px;
 }
 
 .portfolio-content {
