@@ -102,16 +102,13 @@ a {
 .header-contacts {
     display: flex;
     margin-left: auto;
+    font-style: normal;
 }
 
 .header>.container {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.address .header-contacts {
-    font-style: normal;
 }
 
 .contacts-list {
