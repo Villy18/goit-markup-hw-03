@@ -153,11 +153,9 @@ a {
     cursor: pointer;
     display: block;
     margin: 0 auto;
-}
-
-
-.section {   
-    padding: 120px 0;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .visually-hidden {
@@ -222,15 +220,12 @@ a {
     padding: 32px 16px;
 }
 
-.team-list > img {
-    height: 260px;
-}
-
 .team {
     background-color: #f4f4fd;
     font-size: 36px;
     letter-spacing: 0.02em;
     line-height: 1.11;
+    padding: 120px 0
 }
 
 .team-item {
